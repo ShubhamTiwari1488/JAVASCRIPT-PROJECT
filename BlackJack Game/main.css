@@ -1,0 +1,55 @@
+body{
+    background-color:darkgreen
+}
+
+h1{
+    text-align:center;
+    margin-top:40px;
+    color:greenyellow;
+    font-size:40px;
+}
+
+#message-bj{
+    width:400px;
+    margin:auto;
+    margin-top:40px;
+    color:lemonchiffon;
+    font-size:30px;
+    font-weight:bold;
+    text-align:center;
+    border:2px solid white;
+    background-color:darkolivegreen
+}
+#cards-bj{
+   /* border:2px solid red;*/
+    width:400px;
+    margin:auto;
+    margin-top:40px;
+    font-size:30px;
+    font-weight:bold;
+    padding:15px 0px;
+    color:white;
+}
+
+#sum-bj{
+   /* border:2px solid blue;*/
+    width:400px;
+    margin:auto;
+    margin-top:40px;
+    padding:10px 0px;
+    font-size:30px;
+    font-weight:bold;
+    color:white;
+    margin-bottom:40px;
+}
+
+button{
+    display:block;
+    margin:auto;
+    width:300px;
+    cursor:pointer;
+    margin-bottom:10px;
+    padding:10px 0px;
+    border-radius:4px;
+    font-size:18px;
+}
