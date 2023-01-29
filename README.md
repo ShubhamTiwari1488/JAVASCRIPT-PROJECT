@@ -1,2 +1,2 @@
 # JAVASCRIPT
-This repository contains javascripts projects and games. 
+This repository contains projects and games using javascript
