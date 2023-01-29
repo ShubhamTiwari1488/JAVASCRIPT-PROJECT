@@ -1,0 +1,50 @@
+* {
+    font-size : 25px;
+    background-color:blanchedalmond;
+}
+
+.container {
+    width:350px;
+    display:grid;
+    grid-template-columns:1fr;
+    gap:10px;
+    border:2px solid black;
+    margin:auto;
+    margin-top:20px;
+    background:wheat;
+}
+
+.p-tag{
+    display:flex;
+    width:150px;
+    height:60px;
+    background-color:sandybrown;
+    align-items:center;
+    justify-content:center;
+    padding:10px;
+    margin: auto;
+    margin-bottom:40px;
+    margin-top:40px;
+    font-size : 30px;
+}
+
+h1 {
+    text-align:center;
+    font-size : 35px;
+    font-weight:bold;
+    padding:15px;
+    margin:35px;
+    color:darkred;
+    background:inherit;
+}
+
+button{
+    display:block;
+    margin:auto;
+    padding:15px;
+}
+
+button:hover{
+    background:thistle;
+    cursor:pointer;
+}
