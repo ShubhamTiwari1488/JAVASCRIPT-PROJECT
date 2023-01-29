@@ -1,0 +1,40 @@
+*{
+    background-color:aquamarine;
+    font-size:5vw;
+}
+
+
+h2{
+    text-align:center;
+    text-decoration:underline;
+
+}
+#button-btn {
+    background-color:red;
+    color:white;
+    display:block;
+    margin:auto;
+    margin-top:15px;
+}
+
+#show-increment{
+    width:100%;
+    display:flex;
+    font-weight:bold;
+    font-size:25vw;
+    margin:auto;
+    justify-content:center;
+    align-items:center;
+}
+
+#save-btn{
+    margin:auto;
+    display:block;
+    margin-top:30px;
+    background-color:Green;
+    color:white;
+}
+
+#history{
+    text-align:center;
+}
