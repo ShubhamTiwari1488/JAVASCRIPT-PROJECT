@@ -1,0 +1,91 @@
+.text-center{
+    text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container
+.bg-red{
+} */
+
+/*Container*/
+.container{
+    margin:auto;
+    max-width:auto;
+}
+
+.flex{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+
+/*Container Ends*/
+
+/*Button*/
+.button{
+    margin:1px;
+    padding:15px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:25px;
+}
+
+.button:hover{
+    background-color:black;
+    color:white;
+}
+
+/*Row*/
+.row{
+    padding:10px;
+    max-width:auto;
+    padding-top:5px;
+}
+
+/*Input*/
+.input{
+    font-size:17px;
+    max-width:auto;
+    padding :10px;
+    border-radius:5px;
+    border:2px solid black;
+    margin-top:20px;
+}
+
+
+/*Designing the box*/
+
+.box{
+    border : 1px solid brown;
+    width:300px;
+    height:470px;
+    background-color:rgb(231, 228, 224);
+    border:2px solid black;    
+}
+
+
+
+@media screen and (max-width:700px){
+    .box{
+            border : 3px solid black;
+            width:300px;
+            height:450px;
+    }
+
+    .button{
+        font-size:18px;
+    }
+
+    input{
+        margin-top:15px;
+        border:2px solid black;
+    }
+
+    .row{
+        padding:15px;
+        max-width:auto;
+        padding-top:5px;
+    }
+}
