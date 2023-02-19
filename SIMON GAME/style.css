@@ -1,0 +1,94 @@
+/* Body Color */
+body{
+    background-color:blanchedalmond;
+}
+
+/* HEADING Container */
+.heading{
+    text-align:center;
+    text-decoration:underline;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* Outer Container */
+.container {
+    width:550px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+}
+
+/* RED Block  */
+.red {
+    border:2px solid black;
+    width:250px;
+    height:150px;
+    background-color:red;
+    margin:auto;
+}
+
+/* YELLOW Block */
+.yellow {
+    border:2px solid black;
+    width:250px;
+    height:150px;
+    background-color:yellow;
+    margin:auto;
+}
+
+/* GREEN Block */
+.green {
+    border:2px solid black;
+    width:250px;
+    height:150px;
+    background-color:green;
+    margin:auto;
+}
+
+/* BLUE Block */
+.blue {
+    border:2px solid black;
+    width:250px;
+    height:150px;
+    background-color:blue;
+    margin:auto;
+}
+
+
+/* Level Block */
+.level {
+    font-size:25px;
+    font-weight:bold;
+    text-align:center;
+    margin-bottom:30px;
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+/* Footer Block */
+.footer{
+    font-size:25px;
+    font-weight:bold;
+    text-align:center;
+    margin-top:30px;
+
+    font-family:'Courier New', Courier, monospace
+}
+
+
+/* Border Radius for the button */
+button{
+    border-radius:40%;
+}
+
+/* Pressed Class */
+.pressed{
+    scale:1.2;
+}
+
+.game-over{
+    background-color:tomato;
+}
